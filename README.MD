@@ -1,6 +1,6 @@
 # Forecasting Monthly Usage of İBB Public Toilets
 
-This repository contains the research paper for a data science study on **forecasting monthly public toilet usage** operated by the Istanbul Metropolitan Municipality (İBB).
+This repository contains the research paper and full analysis pipeline for a data science study on **forecasting monthly public toilet usage** operated by the Istanbul Metropolitan Municipality (İBB).
 
 The study formulates the problem as a **global multi-station time series regression task**, where a single model learns demand patterns across multiple locations.
 
@@ -70,12 +70,13 @@ Model behavior is analyzed using **SHAP**:
 
 ---
 
-## Code Availability
+## Code
 
-The implementation and training pipeline are **not publicly released**.
+The full analysis and modeling pipeline is available in this repository:
 
-This repository is intended to document the research contribution and provide access to the paper.  
-Code may be shared in the future or **upon reasonable academic request**.
+- `main.ipynb` — data loading, exploratory analysis, feature engineering, baseline models, CatBoost training, and SHAP-based evaluation
+- `ibb_2020_2025.csv` — the underlying dataset
+- `figures/` — exported plots referenced in the paper
 
 ---
 
